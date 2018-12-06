@@ -25,7 +25,7 @@ def load_file(path):
             line = fp.readline()
     return lines
 
-lines = load_file('input-3a.txt')
+lines = load_file('input/input-3a.txt')
 
 def count(grid):
     matches = 0

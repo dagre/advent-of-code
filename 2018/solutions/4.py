@@ -64,7 +64,7 @@ def assign_guard_ids(events):
             last_guard_id = evt.guard_id
 
 # prepare input
-lines = load_file('input-4a.txt')
+lines = load_file('input/input-4a.txt')
 lines.sort(key = lambda x:x.datetime)
 assign_guard_ids(lines)
 

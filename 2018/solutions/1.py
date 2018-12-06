@@ -13,11 +13,11 @@ def do_iter(start, values):
     return start
 
 def part1():
-    lines = load_file('input-1a.txt')
+    lines = load_file('input/input-1a.txt')
     return do_iter(0, lines)
 
 def part2():
-    lines = load_file('input-1a.txt')
+    lines = load_file('input/input-1a.txt')
     occurrences = {}
     value = 0
     index = 0

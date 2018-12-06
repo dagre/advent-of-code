@@ -46,11 +46,11 @@ def keep_same(s1, s2):
     return common
 
 def part1():
-    lines = load_file('input-2a.txt')
+    lines = load_file('input/input-2a.txt')
     return checksum(lines)
 
 def part2():
-    lines = load_file('input-2a.txt')
+    lines = load_file('input/input-2a.txt')
     min_delta = 100
     min_delta_from = ''
     min_delta_to = ''

@@ -2,7 +2,7 @@ def load_file(path):
     with open(path) as fp:
         return fp.readline()
 
-polymer = load_file('input-5a.txt').strip()
+polymer = load_file('input/input-5a.txt').strip()
 
 def same_unit(a,b):
     different_polarity = (a.isupper() and b.islower()) or (a.islower() and b.isupper())
