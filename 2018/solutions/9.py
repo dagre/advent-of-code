@@ -8,7 +8,6 @@ def parse(str):
     return (int(np), int(lm))
 
 def load_file(path):
-    lines = []
     with open(path) as fp:
         line = fp.readline()
         return parse(line)
